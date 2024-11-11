@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(matekhatter.png);
+    margin: 0;
+    padding: 20px;
+}
+#kulso{
+    background-color: #f4f4f4ee;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.tanar {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.fomenu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #222;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 10%;
+}
+
+.fomenu a {
+    color: #e1e1e1;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(34, 34, 30, 0.815);
+}
+
+.fomenu a:hover {
+    background-color: #555;
+}

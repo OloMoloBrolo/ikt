@@ -1,75 +1,125 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     background-image: url(bg.png);
+    font-size: 16px;
 }
-
+p{
+    background-color: #ffffff8c;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 20px;
+}
 #kulso {
     background-color: #e1e1e1c0;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding: 50px;
     border-radius: 20px;
 }
-h1{
+
+h1, h2, h3.kozep {
     text-align: center;
     background-color: #fffce8da;
     padding: 20px;
     border-radius: 20px;
 }
-.menu {
+h2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menubar a {
+    color: white;
+}
+
+.menubar {
     display: flex;
     gap: 20px;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+}
+
+.kep-tarto a {
+    color: black;
+}
+
+.menu-item, .legordulo-elem {
+    padding: 10px;
     border-radius: 10px;
     background-color: rgba(34, 34, 30, 0.815);
     color: #e1e1e1;
-}
-.menu a{
-    color: #e1e1e1;
-}
-.menu-item {
-    position: relative;
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
-    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
-}
-.dropdown-item {
     position: relative;
+}
+
+.legordulo-tartalom, .almenu {
     padding: 10px;
-    background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
-}
-.dropdown-item:hover .submenu {
-    display: block;
-    background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
-}
-.submenu {
+    border-radius: 10px;
     display: none;
     position: absolute;
-    top: 0;
-    left: 100%;
-    padding: 10px;
+    left: 0;
+    top: 100%;
     background-color: rgba(34, 34, 30, 0.815);
-    color: #e1e1e1;
+    color: white;
+}
+
+.legordulo:hover .legordulo-tartalom, .legordulo-elem:hover .almenu {
+    display: block;
+}
+
+.legordulo-elem:hover .almenu {
+    left: 100%;
+    top: 0;
+}
+
+.kep-tarto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kep-elem img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.szoveg-kep {
+    display: flex;
+    align-items: center;
+}
+
+#discord-kep {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.kapcsolat-forma {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.kapcsolat-forma input, .kapcsolat-forma button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.kapcsolat-forma button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.kapcsolat-forma button:hover {
+    background-color: #45a049;
+}
+
+.kozep{
+    width: 30%;
 }
