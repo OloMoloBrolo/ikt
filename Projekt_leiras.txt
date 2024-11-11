@@ -1,0 +1,7 @@
+Projekt neve: url
+Csapatvezető neve: Balogh L. Olivér
+Tagok nevei: Balogh L. Olivér, Durst Péter, Nagy Nándor
+Projekt rövid leírása:
+A mi csoportunk weboldala az online tanfolyam témájába nyúlik, pontosabban online érettségire való felkészítést fog kínálni.
+A weblap tartalmazni fogja az adott tantárgyakat, oktatókat és leírásukat, árakat, az
+órák hosszát, mikéntjét, elérhetőségeket.
